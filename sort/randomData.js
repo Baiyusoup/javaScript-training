@@ -1,5 +1,3 @@
-const { Linter } = require('eslint');
-
 /**
  * 生成随机数据
  * @param {*} limit 数据数量
