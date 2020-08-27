@@ -1,0 +1,23 @@
+{
+  "name": "javascript-training",
+  "version": "1.0.0",
+  "description": "用来练习JavaScript和git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baiyusoup/javaScript-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baiyusoup/javaScript-training/issues"
+  },
+  "homepage": "https://github.com/Baiyusoup/javaScript-training#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-elemefe": "^0.3.0"
+  }
+}
