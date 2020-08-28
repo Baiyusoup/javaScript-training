@@ -40,5 +40,23 @@ function bubbleSort1(arr = []) {
     if (!flag) break;
   }
 }
+
+/**
+ * 改进版的另外写法
+ * @param {*} arr
+ */
+function bubbleSort2(arr = []) {
+  let len = arr.length;
+  let swapped = true;
+  do {
+    swapped = false;
+    for (let i = 0; i < len - 1; i++) {
+      if (arr[i] > arr[i + 1]) {
+        swap(arr, i, i + 1);
+        swapped = true;
+      }
+    }
+  } while (swapped);
+}
 bubbleSort1(data);
 console.log(...data);
