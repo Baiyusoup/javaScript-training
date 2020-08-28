@@ -28,5 +28,21 @@ function insertSort(arr = []) {
     arr[j + 1] = e;
   }
 }
+
+/**
+ * 插入算法写法1
+ * @param {*} arr
+ */
+function insertSort1(arr = []) {
+  const len = arr.length;
+  for (let i = 1; i < len; i++) {
+    let key = arr[i];
+    let j;
+    for (j = i - 1; (j >= 0) && (arr[j] > key); j--) {
+      arr[j + 1] = arr[j];
+    }
+    arr[j + 1] = key;
+  }
+}
 insertSort(data);
 console.log(...data);
